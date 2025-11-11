@@ -1,0 +1,257 @@
+body {
+    background-image: url('/53141.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #FBBF24;
+}
+
+.background-rect {
+  border: 2px solid #ffffff;
+  position: absolute;
+  width: 450px;
+  height: 370px;
+  background-color: #ee581b;
+  top: 40px;
+  left: 63px;
+  border-radius: 20px;
+  z-index: -1;
+  pointer-events: none;
+}
+  
+#home-title {
+/* board-title-home */
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+margin-top: 63px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+
+ 
+}
+
+#guest-title {
+    /* board-title-home */
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+margin-top: 63px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;  
+    }
+
+@font-face {
+  font-family: 'Cursed Timer ULiL';
+  src: url('/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+.home-score {
+  position: absolute;
+  width: 155px;             /* width of the square */
+  height: 120px;            /* height of the square */
+  left: 82px;               /* position from the left */
+  top: 125px;               /* position from the top */
+  
+  background-color: black;  /* black square background */
+  color: #F59E0B;           /* neon pink text */
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;          /* big number */
+  line-height: 127px;       /* centers vertically a bit */
+  text-align: center;       /* centers text horizontally */
+}
+
+.guest-score {
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+
+background-color: black;  
+color: #0EA5E9;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center; 
+}
+
+.homeplusonescore-btn {
+ /* Rectangle 4 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 93px;
+    top: 271px;
+
+    border: 2px solid #0C4A6E;
+    border-radius: 50px;
+    background-color: #0369A1;
+    color: #ffffff;   
+   /* add-points-btns-home */
+   font-family: 'Verdana';
+    font-weight: bold; 
+ }
+ 
+ .homeplustwoscore-btn {
+   
+    box-sizing: border-box; 
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 142px;
+    top: 271px;
+   
+    border: 2px solid #0C4A6E;
+    border-radius: 50px;
+    background-color: #0369A1;
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-weight: bold;   
+ }
+
+.homeplusthreescore-btn {
+    
+    /* plus-three-point */
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 192px;
+    top: 271px;
+
+    border: 2px solid #0C4A6E;
+    border-radius: 50px;
+    background-color: #0369A1;
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-weight: bold; 
+    }
+    
+.guestplusonescore-btn {
+    
+    /* plus-one-point */
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 347px;
+    top: 271px;
+
+    border: 2px solid #0C4A6E;
+    border-radius: 50px;
+    background-color: #0369A1;
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-weight: bold;   
+    }
+.guestplustwoscore-btn {
+    
+    /* plus-two-point */
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 399px;
+    top: 271px;
+
+    border: 2px solid #0C4A6E;
+    border-radius: 50px;
+    background-color: #0369A1;
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-weight: bold;  
+}
+
+.guestplusthreescore-btn{
+    
+    /* plus-three-point */
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 450px;
+    top: 271px;
+    font-family: 'Verdana';
+    font-weight: bold; 
+
+
+    
+    border: 2px solid #0C4A6E;
+    border-radius: 50px;
+    background-color: #0369A1;
+    color: #ffffff;    
+}
+
+.resethomescore-btn{
+    
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 100px;
+    top: 350px;
+    
+    border: 2px solid #0C4A6E;
+    border-radius: 5px;
+    background-color: #0369A1;
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-weight: bold;    
+}
+
+.resetguestscore-btn{
+    
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 355px;
+    top: 350px;
+    
+    border: 2px solid #0C4A6E;
+    border-radius: 5px;
+    background-color: #0369A1;
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-weight: bold;    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
